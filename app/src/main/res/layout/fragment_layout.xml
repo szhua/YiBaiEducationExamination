@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/common16dp"
+              android:paddingRight="@dimen/common16dp"
+              android:paddingTop="@dimen/common10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <ScrollView
+     android:fillViewport="true"
+    android:scrollbars="none"
+     android:overScrollMode="never"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/question_type"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="多选题"
+           android:textSize="@dimen/text_size_12sp"
+           android:textColor="@color/themecolor"
+           android:background="@drawable/questions_type"
+           android:paddingLeft="@dimen/common2dp"
+           android:paddingRight="@dimen/common2dp"
+           android:paddingTop="@dimen/common1dp"
+           android:paddingBottom="@dimen/common1dp"
+           />
+
+   <TextView
+       android:id="@+id/question_content"
+       android:layout_marginTop="@dimen/common10dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/question_example"
+       android:textColor="@color/text_color_normal"
+       android:textSize="@dimen/text_size_16sp"
+       />
+
+   </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:overScrollMode="never"
+            android:layout_marginTop="@dimen/common4dp"
+            android:id="@+id/question_options_list"
+            android:layout_width="match_parent"
+            android:nestedScrollingEnabled="false"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/desription_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+         <LinearLayout
+             android:layout_marginTop="@dimen/common10dp"
+             android:gravity="center_vertical"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="参考答案："
+                 android:textSize="@dimen/text_size_12sp"
+                 android:textColor="@color/text_color_normal"
+                 />
+             <TextView
+                 android:id="@+id/answer"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textSize="@dimen/text_size_14sp"
+                 android:text="C"
+                 android:textColor="@color/text_color_normal"
+                 />
+             <TextView
+                 android:visibility="gone"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:drawableLeft="@drawable/collect_no"
+                 android:text="收藏"
+                 android:gravity="center"
+                 android:layout_marginLeft="@dimen/common10dp"
+                 />
+
+         </LinearLayout>
+
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="深入解析:"
+                 android:textColor="@color/text_color_light"
+                 android:textSize="@dimen/text_size_12sp"
+                 android:layout_marginTop="@dimen/common4dp"
+                 />
+            <TextView
+                android:layout_marginTop="@dimen/common6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_decripition"
+                android:textSize="@dimen/text_size_14sp"
+                android:textColor="@color/text_color_normal"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:contentDescription="占位符"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common30dp"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+</LinearLayout>

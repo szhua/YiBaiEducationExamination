@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:paddingTop="@dimen/common4dp"
+        android:paddingBottom="@dimen/common2dp"
+        android:paddingRight="@dimen/common20dp"
+        android:id="@+id/optoin_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/check_img"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/checked"
+           android:layout_marginRight="@dimen/common4dp"
+           />
+
+        <TextView
+            android:id="@+id/optons_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/options_a"
+            android:textSize="@dimen/text_size_14sp"
+            android:textColor="@color/text_color_normal"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

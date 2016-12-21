@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">壹佰题库</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="yibaitiku">一百题库，自己想一个吧</string>
+    <string name="question_example">某公司为一般规模纳税人，增值税率17%。期初甲材料结存200千克，单价18元。1月份购买甲材料1000千克，单价20元，根据合同规定3月份付款。当年用于产品生产耗用甲材料800千克，销售多余甲材料100千克，售价共计2500元。材料发出采用先进先出法核算。(   )</string>
+    <string name="options_a">A、我是选项A我A我是选项A我是选项A我是选项A我是选项A我A我是选项A我是选项A我是选项A</string>
+    <string name="options_b">B、我是选项A我A我是选项A我是选项A我是选项A我是选项A我A我是选项A我是选项A我是选项A</string>
+    <string name="options_c">C、我是选项A我A我是选项A我是选项A我是选项A我是选项A我A我是选项A我是选项A我是选项A</string>
+    <string name="options_d">D、我是选项A我A我是选项A我是选项A我是选项A我是选项A我A我是选项A我是选项A我是选项A</string>
+    <string name="options_e">E、我是选项A我A我是选项A我是选项A我是选项A我是选项A我A我是选项A我是选项A我是选项A</string>
+    <string name="options_f">F、我是选项A我A我是选项A我是选项A我是选项A我是选项A我A我是选项A我是选项A我是选项A</string>
+    <string name="question_decripition">会计信息质量要求包括可靠性、相关性、可理解性、可比性、实质重于形式、重要性、谨慎性和及时性等。实质重于形式要求企业应当按照交易或者事项的经济实质进行会计确认、计量和报告，不应仅以交易或者事项的法律形式为依据。融资租赁方式属于实质重于形式。</string>
+    <string name="collection_string">收藏</string>
+    <string name="setting_string">设置</string>
+    <string name="index_1">1/</string>
+    <string name="toast_has_unanswered_questions">您还有未答题目\n是否提交试卷</string>
+    <string name="comingsoon">功能马上就来</string>
+    <string name="title_ex">第一套题</string>
+    <string name="title_anss">答题卡</string>
+</resources>

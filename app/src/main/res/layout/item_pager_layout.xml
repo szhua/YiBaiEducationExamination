@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_marginLeft="@dimen/common10dp"
+            android:layout_marginRight="@dimen/common10dp"
+            android:layout_marginTop="@dimen/common4dp"
+            android:layout_marginBottom="@dimen/common4dp"
+            android:elevation="@dimen/common4dp"
+            app:cardCornerRadius="@dimen/common4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <LinearLayout
+        android:paddingTop="@dimen/common12dp"
+        android:paddingBottom="@dimen/common12dp"
+        android:paddingRight="@dimen/common10dp"
+        android:paddingLeft="@dimen/common10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginLeft="@dimen/common4dp"
+        android:id="@+id/pager_name"
+        android:drawableLeft="@drawable/pager_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一套(102题)"
+        android:paddingTop="@dimen/common1dp"
+        android:paddingBottom="@dimen/common1dp"
+        android:paddingLeft="@dimen/common2dp"
+        android:paddingRight="@dimen/common2dp"
+        android:gravity="center"
+        android:background="@drawable/pager_shape"
+        android:textSize="@dimen/text_size_14sp"
+        android:textColor="@color/text_color_normal"
+        />
+
+        <LinearLayout
+            android:paddingTop="@dimen/common10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/start_bt"
+                android:text="开始做题"
+                android:gravity="center"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="@dimen/common4dp"
+                android:paddingRight="@dimen/common4dp"
+                android:paddingTop="@dimen/common4dp"
+                android:paddingBottom="@dimen/common4dp"
+                android:drawableLeft="@drawable/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/collect_bt"
+                android:text="收藏"
+                android:padding="@dimen/common4dp"
+                android:layout_marginLeft="@dimen/common20dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/collect_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
